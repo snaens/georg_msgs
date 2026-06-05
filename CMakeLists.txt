@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.20)
 
 project(athome_msgs)
 
@@ -22,15 +22,15 @@ find_package(std_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
-  ""
-)
-
-set(action_files
-  ""
+  "msg/Placeholder.msg"
 )
 
 set(srv_files
-  ""
+  "srv/Placeholder.srv"
+)
+
+set(action_files
+  "action/Placeholder.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
