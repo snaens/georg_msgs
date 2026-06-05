@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>athome_msgs</name>
+  <name>georg_msgs</name>
   <version>0.0.0</version>
-  <description>Message descriptions for Ohm @home robots</description>
+  <description>Message descriptions for the Autonohm Dahoam 'Georg' robot</description>
   <maintainer email="snaens@snaens.net">Sam 'snaens' Pelz</maintainer>
   <license>MIT</license>
   <url type="website">https://github.com/snaens/athome_msgs</url>

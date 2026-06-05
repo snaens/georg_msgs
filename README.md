@@ -1,4 +1,4 @@
-# athome_msgs
+# georg_msgs
 > Message descriptions for Ohm @home robots
 
 These Messages/Services/Actions are each implemented by the robot's subsystems.  
@@ -49,4 +49,3 @@ float64 pointing_angle_error
 Many more example messages/services/actions can be found here:
 - https://github.com/ros-controls/control_msgs/blob/master/control_msgs/
 - https://github.com/ros2/common_interfaces/blob/jazzy/
-# athome_msgs

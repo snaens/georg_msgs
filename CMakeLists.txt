@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(athome_msgs)
+project(georg_msgs)
 
 # Default to C++17
 if(NOT CMAKE_CXX_STANDARD)
