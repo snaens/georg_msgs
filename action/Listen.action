@@ -1,0 +1,16 @@
+# Pib will process audio.
+#
+
+# modes
+uint8 MODE_DOORBELL = 0
+uint8 MODE_SPEECH = 1
+
+uint8 mode
+---
+# confidence in percent
+float32 confidence
+
+# transcript of speech to text
+string transcript
+---
+bool success

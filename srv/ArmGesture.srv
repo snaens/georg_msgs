@@ -1,0 +1,35 @@
+# Pib will point towards the given vector.
+# The vector originates from the midpoint between both shoulder sections
+# think of it as 'at chest height'
+#
+# Sends response once the movement is completed.
+
+# which arm to use for the gesture
+uint8 SIDE_LEFT = 0
+uint8 SIDE_RIGHT = 1
+
+# How to do the gesture.
+# Point with slightly bent or straight elbow?
+uint8 ARM_POINTTO_BENT = 0
+uint8 ARM_POINTTO_STRAIGHT = 1
+uint8 ARM_WAVE = 2
+uint8 ARM_SHAKE_HAND = 3
+
+# Bit mask of fingers to keep extended for gesture.
+# Add together the fingers you want to have extended
+uint8 HAND_THUMB = 1          #0b000001
+uint8 HAND_THUMB_FINGER = 2   #0b000010
+uint8 HAND_INDEX_FINGER = 4   #0b000100
+uint8 HAND_MIDDLE_FINGER = 8  #0b001000
+uint8 HAND_RING_FINGER = 16   #0b010000
+uint8 HAND_PINKY_FINGER = 32  #0b100000
+uint8 HAND_OPEN_HAND = 63     #0b111111
+
+
+uint8 side
+uint8 arm_mode
+uint8 hand_digits
+
+geometry_msgs/Vector3 vector
+---
+bool success

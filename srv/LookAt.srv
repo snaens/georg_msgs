@@ -1,0 +1,9 @@
+# Pib will look towards the given vector.
+# TODO: Head movement only?
+#
+# Sends response once the movement is completed.
+
+
+geometry_msgs/Vector3 vector
+---
+bool success

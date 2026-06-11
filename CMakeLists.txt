@@ -20,17 +20,20 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
+find_package(vision_msgs REQUIRED)
 
 set(msg_files
   "msg/Placeholder.msg"
 )
 
 set(srv_files
-  "srv/Placeholder.srv"
+  "srv/ArmGesture.srv"
+  "srv/LookAt.srv"
 )
 
 set(action_files
-  "action/Placeholder.action"
+  "action/Grab.action"
+  "action/Listen.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -45,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     sensor_msgs
     std_msgs
     trajectory_msgs
+    vision_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
