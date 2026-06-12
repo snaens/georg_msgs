@@ -17,7 +17,7 @@ uint8 ARM_SHAKE_HAND = 3
 
 # Bit mask of fingers to keep extended for gesture.
 # Add together the fingers you want to have extended
-uint8 HAND_THUMB = 1          #0b000001
+uint8 HAND_THUMB_ROTATOR = 1  #0b000001
 uint8 HAND_THUMB_FINGER = 2   #0b000010
 uint8 HAND_INDEX_FINGER = 4   #0b000100
 uint8 HAND_MIDDLE_FINGER = 8  #0b001000
